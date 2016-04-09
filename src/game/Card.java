@@ -8,6 +8,17 @@ import java.util.Random;
  */
 public class Card {
 	
-	// Class variables
+	/*
+	 * Instance Variables
+	 */
+	private String name;
+	private int manaCost;
+	private int healthAmt;
+	private int attackAmt;
+	private Special ability;
 	
+	// Constructor
+	public Card(String name, int manaCost, int healthAmt, int attackAmt, Special ability){
+		
+	}
 }
